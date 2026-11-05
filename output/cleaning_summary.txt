@@ -1,0 +1,27 @@
+
+DATA CLEANING AND PREPROCESSING REPORT
+
+Dataset: Customer Personality Analysis
+
+Original number of rows: 2240
+Original number of columns: 29
+
+Duplicate records identified: 0
+Rows after duplicate removal: 2240
+
+Missing values before cleaning: 24
+Missing values after cleaning: 0
+
+Income missing values were filled using the median.
+
+Text values were standardized.
+Column names were converted to lowercase.
+Date column was converted into datetime format.
+Potential outliers were identified using the IQR method.
+
+Final number of rows: 2240
+Final number of columns: 29
+
+Output file: cleaned_customer_data.csv
+
+The cleaned dataset is ready for further analysis.
